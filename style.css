@@ -1,0 +1,86 @@
+
+@media screen and (max-width: 600px) {
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Banner Image */
+.banner-img {
+    width: 100%;  /* Makes image fill the full width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra spacing */
+    
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Overlay Effect for Better Text Visibility */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+/* Ensure Text Stays on Top */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+/* Button Styling */
+/* .btn { */
+    /* display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px; */
+/* } */
+
+
+#about {
+    padding: 50px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    align-content: center;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #0056b3;
+    
+}
+
